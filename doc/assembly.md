@@ -23,7 +23,13 @@ Device assembly <!-- omit in toc -->
 Note. You are strongly advised to order SMT stencil for your PCB. That will
 add ~ 8$ in total to your order - good price for convenience. On placing stencil
 order at jlcpcb, select option "custom size", and define small one. Then stencil
-will be compact and light, with small delivery cost.
+will be compact and light, with small delivery cost. You need top layer only. If
+you order SMT stencil, add this comment:
+
+_"Please make stencil with my paste layer directly. Make sure 2 TP rounds 0.7mm
+with X = 43.0 and X = 108.0 exist"_
+
+![](./images/smt_stencil_holes.png)
 
 
 ## PCB assembly
